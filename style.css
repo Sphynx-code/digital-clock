@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: url(./michael-d-rnKqWvO80Y4-unsplash.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+background-attachment: fixed;
+background-position: center;
+
+
+
+}
+.clock{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 100vh;
+    
+   
+} 
+h1{
+    font-size: 6em;
+    font-family: Arial, Helvetica, sans-serif;
+    backdrop-filter: blur(5px);
+   
+    text-align: center;
+    
+}
+@media only screen and (min-width:340px) and (max-width:431px){
+  
+    h1{
+        font-size: 3em;
+       
+    }
+}
